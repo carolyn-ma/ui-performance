@@ -2,21 +2,31 @@
 _Automated shell/js scripts to analyze frontend performance._
 
 ## -----------------Bundle size (shell script)---------------
-```shell
-./bundle-size.sh
-```
 
-_If the command above gives no execution permission error, do_
+### Purpose:
+  Single script to automate installing, building, and reporting on:
+    1. source-map-explorer
+    2. webpack-bundle-analyzer
+    3. bundlephobia
+
+### Dependencies:
+  OS - macOs 
+  * node
+  * npm
+  * brew
+
+### Usage:
   ```shell
-  chmod -x ./bundle-size.sh
+  ./bundle-size.sh
   ```
 
-Automated installing, building, and reporting on:
-  1. source-map-explorer
-  2. webpack-bundle-analyzer
-  3. bundlephobia
+  _If the command above gives no execution permission error, do_
+    ```shell
+    chmod -x ./bundle-size.sh
+    ```
 
-_Upcoming: trend analysis on historical reports_
+### Future:
+  Trend analysis on historical reports.
 
 
 ## -----------------Rendering time (javascript)---------------
